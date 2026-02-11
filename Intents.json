@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Good morning", "Hey"],
+      "responses": ["Hello! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a nice day!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours"],
+      "responses": ["We are open Monday to Friday, from 9am to 6pm."]
+    },
+    {
+      "tag": "products",
+      "patterns": ["What do you sell?", "Show me your products", "What candles do you have?", "Tell me about your candles",
+    "Your products"],
+      "responses": ["We sell scented candles: vanilla, lavender and rose."]
+    },
+    {
+      "tag": "buy",
+      "patterns": ["I want to buy a candle", "How much is a candle?", "Price of a candle"],
+      "responses": ["A candle costs $10."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome!"]
+    }
+  ]
+}
